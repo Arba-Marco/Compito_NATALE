@@ -1,8 +1,7 @@
-<p>secondo works!</p>
-      <div *ngFor="let macchine" class="col-sm-4">
-        <h3>{{macchine.nome}}</h3>
-        <p>data : {{macchine.data}}</p>
-        <p>prezzo: {{macchine.prezzo}}</p>
+      <div *ngFor="let auto of lista_auto" >
+        {{ auto.id}} -{{ auto.name}} 
+       <br> {{  auto.cavalli}}  {{  auto.potenza}} 
+        <br> {{   auto.euro}}  {{   auto.prezzo}}
         <br><br><br>
       </div>
-    </div>
+      
